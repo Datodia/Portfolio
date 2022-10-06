@@ -1,0 +1,213 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #02183a;
+}
+
+header .header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+header .header .logo h1,
+header .header .resume a,
+header .links a {
+    font-size: 16px;
+    font-family: 'Nunito';
+    color: #00FFF5;
+    font-weight: 800;
+    font-style: normal;
+}
+
+header .header .resume {
+    border: 0.642857px dashed #0066FF;
+    border-radius: 20px;
+    padding: 9px 19px;
+}
+
+header .header .resume a,
+header .links a {
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+header .links a {
+    font-weight: 500;
+}
+
+
+header .links {
+    width: 35%;
+    background-color: white;
+    border-radius: 15px 0 0 15px;
+    padding: 10px;
+    transform: translate(185%, 2%);
+}
+
+header .links .link {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+header .links {
+    display: none;
+}
+
+header .links .link a:hover {
+    background-color: #00FFF5;
+    color: white;
+}
+
+.main-container {
+    width: 100%;
+}
+
+.main-container .about,
+.main-container .projects {
+    width: 90%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.main-container .about .title h1,
+.main-container .projects .title h1,
+.main-container .experience .title h1 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    text-align: center;
+    color: #00FFF5;
+}
+
+.main-container .about .prof-pic {
+    width: 171px;
+    height: 200px;
+    margin: auto;
+    margin-top: 3%;
+    border: 0.43074px dashed #0066FF;
+    border-radius: 12.9222px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container .about .prof-pic img {
+    max-width: 150px;
+    border-radius: 10px;
+}
+
+.main-container .about .about-text h1,
+.main-container .about .about-text button {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #00FFF5;
+    margin-top: 20px;
+}
+
+.main-container .about .about-text p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #00FFF5;
+}
+
+.main-container .about .about-text button,
+.main-container .projects .show-more {
+    width: 124.49px;
+    height: 25px;
+    font-size: 9px;
+    color: white;
+    background: #00FFF5;
+    border-radius: 15.3061px;
+    border: none;
+}
+
+.main-container .about .soc-network {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.main-container .projects .items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3%;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.main-container .projects .item {
+    width: 30%;
+    display: flex;
+    padding: 5px 0;
+    border: 0.300375px dashed #0066FF;
+    border-radius: 9.01126px;
+    margin-top: 3%;
+}
+
+.main-container .projects .item a {
+    display: flex;
+}
+
+.main-container .projects .item img {
+    max-width: 90%;
+    border-radius: 15px;
+    margin: auto;
+}
+
+.main-container .projects .show-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.main-container .projects .show-more a {
+    font-size: 9px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Nunito';
+    font-weight: 400;
+}
+
+.main-container .experience {
+    margin-top: 10%;
+}
+
+.main-container .experience .exp-div {
+    display: flex;
+}
+
+.main-container .experience .exp-div .date h1 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    color: #FFFFFF;
+    transform: rotate(-90deg);
+}
+
+.main-container .experience .exp-div .exp-about {
+    border: 0.356125px dashed #0066FF;
+    border-radius: 10.6838px;
+    width: 90%;
+}
