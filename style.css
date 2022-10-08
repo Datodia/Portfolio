@@ -197,6 +197,14 @@ header .links .link a:hover {
     display: flex;
 }
 
+.main-container .experience .exp-div .date {
+    white-space: nowrap;
+    width: 8%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
 .main-container .experience .exp-div .date h1 {
     font-family: 'Nunito';
     font-style: normal;
@@ -210,4 +218,44 @@ header .links .link a:hover {
     border: 0.356125px dashed #0066FF;
     border-radius: 10.6838px;
     width: 90%;
+    display: flex;
+    margin-top: 3%;
+}
+
+.main-container .experience .exp-div .exp-about .possition {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    padding: 0 10px;
+}
+
+.main-container .experience .exp-div .exp-about .dot {
+    padding-top: 4%;
+}
+
+.main-container .experience .exp-div .exp-about .about {
+    margin-top: 0;
+    padding: 5%;
+}
+
+.main-container .experience .exp-div .exp-about .possition h1,
+.main-container .experience .exp-div .exp-about .possition p,
+.main-container .experience .exp-div .exp-about .about p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    color: white;
+}
+
+.main-container .experience .exp-div .exp-about .possition p {
+    font-weight: 500;
+    font-size: 10px;
+}
+
+.main-container .experience .exp-div .exp-about .about p {
+    font-weight: 400;
+    font-size: 8px;
 }
