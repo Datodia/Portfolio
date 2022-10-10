@@ -1,0 +1,70 @@
+/* @media screen and (min-width: 750px) {
+    .main-container .contact-div {
+        margin-top: 5%;
+    }
+
+    .main-container .contact-div .about-me {
+        width: 40%;
+        justify-content: flex-start;
+        margin: 0;
+    }
+
+    .main-container .contact-div .single {
+        display: flex;
+        width: 40%;
+        align-items: end;
+    }
+
+    .main-container .contact-div .single img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .main-container .contact-div .single iframe {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -53%);
+        width: 80%;
+        height: 84%;
+    }
+
+} */
+
+
+@media screen and (min-width: 768px) {
+    .main-container .about {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .main-container .about .title {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .main-container .about .prof-pic {
+        margin: 0;
+        height: auto;
+        width: 30%;
+    }
+
+    .main-container .about .prof-pic img {
+        object-fit: cover;
+        max-width: 80%;
+        max-height: 80%;
+    }
+
+    .main-container .about .about-text {
+        width: 40%;
+    }
+
+    .main-container .about .soc-network {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        width: 8%;
+        align-items: center;
+    }
+}
