@@ -67,6 +67,21 @@
         width: 8%;
         align-items: center;
     }
+
+    .main-container .about .projet .photo img {
+        max-width: 130px;
+        border-radius: 15px;
+        margin-top: 33%;
+    }
+
+    .main-container .about .projet .about .proj-title h1 {
+        font-size: 16px;
+    }
+
+    .main-container .about .projet .about .proj-title p {
+        font-size: 12px;
+        margin-bottom: 50px;
+    }
 }
 
 @media screen and (min-width: 800px) {
@@ -141,6 +156,28 @@
     .main-container .contact .show-more a {
         font-size: 13px;
     }
+
+    .main-container .about .projet .photo img {
+        max-width: 150px;
+        border-radius: 15px;
+        margin-top: 33%;
+    }
+
+    .main-container .about .projet .about .proj-title h1 {
+        font-size: 20px;
+        margin-bottom: 15px;
+        margin-top: -16px;
+    }
+
+    .main-container .about .projet .about .proj-title p {
+        font-size: 15px;
+        margin-bottom: 65px;
+    }
+
+    .main-container .about .projet .about .proj-title a {
+        padding: 10px 30px;
+        font-size: 15px;
+    }
 }
 
 @media screen and (min-width: 1140px) {
@@ -169,6 +206,28 @@
 
     .main-container .experience .exp-div .exp-about .possition h1 {
         font-size: 20px;
+    }
+
+    .main-container .about .projet .photo img {
+        max-width: 180px;
+        border-radius: 15px;
+        margin-top: 33%;
+    }
+
+    .main-container .about .projet .about .proj-title h1 {
+        font-size: 22px;
+        margin-bottom: 15px;
+        margin-top: -40px;
+    }
+
+    .main-container .about .projet .about .proj-title p {
+        font-size: 18px;
+        margin-bottom: 85px;
+    }
+
+    .main-container .about .projet .about .proj-title a {
+        padding: 10px 30px;
+        font-size: 15px;
     }
 }
 
@@ -227,6 +286,23 @@
     .main-container .contact .show-more a {
         font-size: 20px;
     }
+
+    .main-container .about .projet .photo img {
+        max-width: 220px;
+        border-radius: 15px;
+        margin-top: 33%;
+    }
+
+    .main-container .about .projet .about .proj-title h1 {
+        font-size: 22px;
+        margin-bottom: 15px;
+        margin-top: -60px;
+    }
+
+    .main-container .about .projet .about .proj-title p {
+        font-size: 18px;
+        margin-bottom: 15%;
+    }
 }
 
 @media screen and (min-width: 1600px) {
@@ -278,5 +354,27 @@
 
     .main-container .experience .exp-div .exp-about .possition p {
         font-size: 25px;
+    }
+
+    .main-container .about .projet .photo img {
+        max-width: 270px;
+        border-radius: 15px;
+        margin-top: 33%;
+    }
+
+    .main-container .about .projet .about .proj-title h1 {
+        font-size: 25px;
+        margin-bottom: 15px;
+        margin-top: -60px;
+    }
+
+    .main-container .about .projet .about .proj-title p {
+        font-size: 21px;
+        margin-bottom: 17%;
+    }
+
+    .main-container .about .projet .about .proj-title a {
+        padding: 15px 45px;
+        font-size: 18px;
     }
 }
