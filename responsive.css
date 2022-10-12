@@ -37,6 +37,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        margin-top: 6%;
     }
 
     .main-container .about .title {
@@ -82,9 +83,21 @@
         font-size: 12px;
         margin-bottom: 50px;
     }
+
+    .main-container .projects .items .item a {
+        margin-top: 12%;
+        font-size: 14px;
+    }
+
+    .main-container .about .projet .about .proj-title .button {
+        width: 32%;
+    }
 }
 
 @media screen and (min-width: 800px) {
+    .main-container .about {
+        margin-top: 8%;
+    }
 
     header .header .burger {
         display: none;
@@ -96,7 +109,11 @@
 
     header .header .nav-links .link {
         display: flex;
+        height: 50px;
         gap: 25px;
+        position: relative;
+        align-items: center;
+
     }
 
     header .header .nav-links .link a {
@@ -178,9 +195,22 @@
         padding: 10px 30px;
         font-size: 15px;
     }
+
+    .main-container .projects .items .item a {
+        height: 8%;
+        font-size: 18px;
+    }
+
+    .main-container .about .projet .about .proj-title .button {
+        width: 34%;
+    }
 }
 
 @media screen and (min-width: 1140px) {
+    .main-container .about .projet .about .proj-title .button {
+        width: 22%;
+    }
+
     .main-container .about .about-text h1 {
         font-size: 20px;
     }
@@ -229,9 +259,22 @@
         padding: 10px 30px;
         font-size: 15px;
     }
+
+    .main-container .projects .items .item a {
+        margin-top: 12%;
+        height: 8%;
+        font-size: 18px;
+    }
 }
 
 @media screen and (min-width: 1400px) {
+    .main-container .about .projet .about .proj-title .button {
+        width: 18%;
+    }
+
+    .main-container .about {
+        margin-top: 10%;
+    }
 
     header .header .logo h1,
     header .header .resume a,
@@ -303,9 +346,16 @@
         font-size: 18px;
         margin-bottom: 15%;
     }
+
+    .main-container .projects .items .item a {
+        font-size: 20px;
+    }
 }
 
 @media screen and (min-width: 1600px) {
+    .main-container .about .projet .about .proj-title .button {
+        width: 20%;
+    }
 
     header .header .logo h1,
     header .header .resume a,
@@ -370,11 +420,20 @@
 
     .main-container .about .projet .about .proj-title p {
         font-size: 21px;
-        margin-bottom: 17%;
+        margin-bottom: 11%;
     }
 
     .main-container .about .projet .about .proj-title a {
         padding: 15px 45px;
         font-size: 18px;
+    }
+
+    .main-container .projects .items .item a {
+        height: 10%;
+        font-size: 22px;
+    }
+
+    .main-container .about {
+        margin-top: 9%;
     }
 }
