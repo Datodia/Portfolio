@@ -178,6 +178,8 @@ header .links .link a:hover {
     max-width: 90%;
     border-radius: 15px;
     margin: auto;
+    max-height: 90%;
+
 }
 
 .main-container .projects .show-more,
@@ -358,4 +360,90 @@ header .links .link a:hover {
     color: white;
     font-family: 'Nunito';
     font-size: 12px;
+}
+
+.main-container .about .projet .about .proj-title .button {
+    width: 64%;
+}
+
+
+header .header .nav-links .link a:hover {
+    transition-duration: .5s;
+    padding: 15px;
+    border: 1px dashed #0066FF;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem #00fff7a4;
+}
+
+header .header .logo h1:hover {
+    transition-duration: .5s;
+    transform: scale(1.2);
+}
+
+header .header .resume:hover {
+    transition-duration: .5s;
+    transform: scale(.9);
+    box-shadow: 0 0 1rem #00fff7a4;
+}
+
+.main-container .about .prof-pic img:hover {
+    transition-duration: .5s;
+    transform: scale(1.15);
+    box-shadow: 0 0 1rem #00fff7a4;
+}
+
+.main-container .about .about-text button:hover,
+.main-container .projects .show-more:hover,
+.main-container .experience .show-more:hover,
+.main-container .contact .show-more:hover {
+    transform: scale(1.1);
+    transition-duration: .5s;
+    color: black;
+}
+
+.main-container .projects .show-more:hover a,
+.main-container .experience .show-more:hover a,
+.main-container .contact .show-more:hover a,
+.main-container .about .projet .about .proj-title .button:hover a {
+    transition-duration: .5s;
+    color: black;
+}
+
+.main-container .about .projet .about .proj-title .button:hover {
+    transform: translateY(-15px);
+    transition-duration: .5s;
+}
+
+.main-container .about .soc-network a:hover {
+    transform: scale(1.4);
+    transition-duration: .5s;
+}
+
+.main-container .projects .items .item a {
+    position: absolute;
+    width: 18%;
+    margin-left: 4%;
+    margin-top: 10%;
+    height: 5%;
+    opacity: 0;
+    background: #0066FF;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-family: 'Nunito';
+    font-size: 8px;
+}
+
+.main-container .projects .items .item:hover a {
+    opacity: 1;
+    transition-duration: .5s;
+}
+
+.main-container .projects .items .item:hover img {
+    filter: blur(.2rem);
+    transform: scale(1.1);
+    transition-duration: .5s;
 }
