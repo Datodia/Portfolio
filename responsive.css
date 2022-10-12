@@ -32,7 +32,7 @@
 } */
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 550px) {
     .main-container .about {
         display: flex;
         flex-wrap: wrap;
@@ -66,5 +66,217 @@
         justify-content: end;
         width: 8%;
         align-items: center;
+    }
+}
+
+@media screen and (min-width: 800px) {
+
+    header .header .burger {
+        display: none;
+    }
+
+    header .header .nav-links {
+        display: flex;
+    }
+
+    header .header .nav-links .link {
+        display: flex;
+        gap: 25px;
+    }
+
+    header .header .nav-links .link a {
+        text-decoration: none;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        color: #00FFF5;
+    }
+
+    .main-container .experience .exp-div .exp-about .possition h1 {
+        font-size: 18px;
+    }
+
+    .main-container .experience .exp-div .exp-about .possition p {
+        font-size: 16px;
+    }
+
+    .main-container .experience .exp-div .exp-about .about p,
+    .main-container .experience .exp-div .date h1 {
+        font-size: 12px;
+    }
+
+    .main-container .about .title h1,
+    .main-container .projects .title h1,
+    .main-container .experience .title h1,
+    .main-container .contact .title h1 {
+        font-size: 19px;
+    }
+
+    .main-container .contact .text h1 {
+        font-size: 17px;
+    }
+
+    .main-container .contact .text h2 {
+        font-size: 15px;
+    }
+
+    .main-container .contact-div .about-me .mobile h2,
+    .main-container .contact-div .about-me .mail h2 {
+        font-size: 15px;
+    }
+
+    .main-container .about .about-text button,
+    .main-container .projects .show-more,
+    .main-container .experience .show-more,
+    .main-container .contact .show-more {
+        width: 180px;
+        height: 35px;
+        font-size: 13px;
+    }
+
+    .main-container .projects .show-more a,
+    .main-container .experience .show-more a,
+    .main-container .contact .show-more a {
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 1140px) {
+    .main-container .about .about-text h1 {
+        font-size: 20px;
+    }
+
+    .main-container .about .about-text p {
+        font-size: 17px;
+    }
+
+    header .header .logo h1,
+    header .header .resume a,
+    header .header .nav-links .link a {
+        font-size: 20px;
+    }
+
+    header .header .resume {
+        padding: 11px 26px;
+    }
+
+    .main-container .experience .exp-div .exp-about .about p,
+    .main-container .experience .exp-div .date h1 {
+        font-size: 15px;
+    }
+
+    .main-container .experience .exp-div .exp-about .possition h1 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+
+    header .header .logo h1,
+    header .header .resume a,
+    header .header .nav-links .link a,
+    .main-container .about .title h1,
+    .main-container .projects .title h1,
+    .main-container .experience .title h1,
+    .main-container .contact .title h1 {
+        font-size: 23px;
+    }
+
+    .main-container .about .about-text h1 {
+        font-size: 23px;
+    }
+
+    .main-container .about .about-text p {
+        font-size: 21px;
+    }
+
+    .main-container .about .about-text button,
+    .main-container .projects .show-more,
+    .main-container .experience .show-more,
+    .main-container .contact .show-more {
+        width: 200px;
+        height: 45px;
+        font-size: 15px;
+    }
+
+    .main-container .about .soc-network a img {
+        width: 30px;
+    }
+
+    .main-container .experience .exp-div .exp-about .about p,
+    .main-container .experience .exp-div .date h1 {
+        font-size: 20px;
+    }
+
+    .main-container .experience .exp-div .exp-about .possition h1 {
+        font-size: 25px;
+    }
+
+    .main-container .contact .text h1 {
+        font-size: 22px;
+    }
+
+    .main-container .contact .text h2 {
+        font-size: 18px;
+    }
+
+    .main-container .projects .show-more a,
+    .main-container .experience .show-more a,
+    .main-container .contact .show-more a {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+
+    header .header .logo h1,
+    header .header .resume a,
+    header .header .nav-links .link a,
+    .main-container .about .title h1,
+    .main-container .projects .title h1,
+    .main-container .experience .title h1,
+    .main-container .contact .title h1 {
+        font-size: 35px;
+    }
+
+    .main-container .about .about-text h1 {
+        font-size: 28px;
+    }
+
+    .main-container .about .about-text p {
+        font-size: 27px;
+    }
+
+    .main-container .about .about-text button,
+    .main-container .projects .show-more,
+    .main-container .experience .show-more,
+    .main-container .contact .show-more {
+        width: 300px;
+        height: 55px;
+        font-size: 20px;
+        margin-top: 55px;
+    }
+
+    .main-container .experience .exp-div .exp-about .about p,
+    .main-container .experience .exp-div .date h1 {
+        font-size: 25px;
+    }
+
+    .main-container .experience .exp-div .exp-about .possition h1 {
+        font-size: 30px;
+    }
+
+    .main-container .contact .text h1 {
+        font-size: 27px;
+    }
+
+    .main-container .contact .text h2 {
+        font-size: 23px;
+    }
+
+    .main-container .experience .exp-div .exp-about .possition p {
+        font-size: 25px;
     }
 }
