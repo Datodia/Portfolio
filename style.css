@@ -447,3 +447,66 @@ header .header .resume:hover {
     transform: scale(1.1);
     transition-duration: .5s;
 }
+
+
+section .popup {
+    width: 100%;
+    position: absolute;
+    z-index: 50;
+
+}
+
+section .popup form {
+    display: none;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    margin-top: 13%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+section .popup form .title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10%;
+}
+
+section .popup form .title h1 {
+    font-family: 'Nunito';
+    color: black;
+    font-size: 25px;
+}
+
+section .popup form .title #close {
+    width: 30px;
+    height: 30px;
+    background: none;
+    background-color: #00FFF5;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+section .popup form input,
+section .popup form textarea {
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+}
+
+section .popup form textarea {
+    height: auto;
+}
+
+section .popup form .send {
+    background-color: #00FFF5;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    font-size: 17px;
+    font-family: 'Nunito';
+}
