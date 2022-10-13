@@ -204,6 +204,28 @@
     .main-container .about .projet .about .proj-title .button {
         width: 34%;
     }
+
+    section .popup form .title {
+        margin-bottom: 8%;
+    }
+
+    section .popup form .title h1 {
+        font-size: 35px;
+    }
+
+    section .popup form .title #close {
+        width: 50px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    section .popup form input {
+        height: 52px;
+    }
+
+    section .popup form .send {
+        height: 40px;
+    }
 }
 
 @media screen and (min-width: 1140px) {
@@ -264,6 +286,10 @@
         margin-top: 12%;
         height: 8%;
         font-size: 18px;
+    }
+
+    section .popup form {
+        width: 80%;
     }
 }
 
@@ -348,6 +374,11 @@
     }
 
     .main-container .projects .items .item a {
+        font-size: 20px;
+    }
+
+    section .popup form input,
+    section .popup form textarea {
         font-size: 20px;
     }
 }
