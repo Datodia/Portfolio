@@ -45,14 +45,14 @@
     </header>
     <section>
         <div class="popup">
-            <form action="https://formsubmit.co/el/xuwuye" method="POST">
+            <form reset()>
                 <div class="title">
                     <h1>Send your Message</h1>
                     <button id="close" type="button">X</button>
                 </div>
-                <input name="email" type="email" placeholder="YourEmail@gmail.com" required >
-                <input name="title" type="text" placeholder="Job offer" required>
-                <textarea name="description" name="" id="" cols="30" rows="10" required placeholder="Tell about your suggestion"></textarea>
+                <input id="mail" name="email" type="email" placeholder="YourEmail@gmail.com" required >
+                <input id="title" name="title" type="text" placeholder="Job offer" required>
+                <textarea id="text" name="description" name="" id="" cols="30" rows="10" required placeholder="Tell about your suggestion"></textarea>
                 <button class="send" type="submit">Send</button>
             </form>
         </div>
@@ -229,7 +229,7 @@
 
     </div>
 
-
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
