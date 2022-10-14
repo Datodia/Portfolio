@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #02183a;
 }
@@ -315,10 +319,6 @@ header .links .link a:hover {
     color: white;
 }
 
-.main-container .contact-div .single {
-    display: none;
-}
-
 .main-container .contact {
     margin-bottom: 30px;
 }
@@ -509,4 +509,56 @@ section .popup form .send {
     color: white;
     font-size: 17px;
     font-family: 'Nunito';
+}
+
+.main-container .hello {
+    width: 40px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 1%;
+    background-image: url(assets/hello.svg);
+}
+
+.main-container .scroll {
+    width: 120px;
+    margin: auto;
+    margin-top: 2%;
+
+}
+
+.main-container .scroll h1 {
+    font-family: 'Nunito';
+    color: #00FFF5;
+    font-size: 18px;
+    text-align: center;
+}
+
+.main-container .hello img {
+    width: 15px;
+    object-fit: contain;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move {
+    0% {
+        margin-top: -30px;
+    }
+
+    100% {
+        margin-top: 50px
+    }
+}
+
+.main-container .contact-div .soc-network a img {
+    width: 15px;
+    height: 15px;
+}
+
+.main-container .contact-div .soc-network a:hover {
+    transform: scale(1.2);
+    transition-duration: .3s;
 }

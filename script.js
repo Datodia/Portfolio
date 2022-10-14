@@ -1,6 +1,10 @@
-// $('#burger').click(function () {
-//     $(".links").slideToggle();
-// })
+$('#burger').click(function () {
+    $(".links").slideToggle();
+})
+$('header .links .link a').click(function () {
+    $(".links").slideUp();
+})
+
 
 const form = document.querySelector('form');
 const btn = document.querySelector('.test');
