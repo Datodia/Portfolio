@@ -14,6 +14,10 @@ body {
     background-color: #02183a;
 }
 
+.flex {
+    display: flex;
+}
+
 header .header {
     width: 90%;
     display: flex;
