@@ -330,12 +330,24 @@ header .links .link a:hover {
 .main-container .about .projet {
     display: flex;
     gap: 8%;
+    border: 2px dashed #0066FF;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    align-items: center;
+    height: 160px;
+}
+
+.main-container .about .projet .about {
+    margin-top: 0;
+    display: contents;
 }
 
 .main-container .about .projet .photo img {
     max-width: 100px;
+    max-height: 150px;
     border-radius: 15px;
-    margin-top: 33%;
+    margin-left: 15px;
+
 }
 
 .main-container .about .projet .about .proj-title h1,
@@ -363,7 +375,7 @@ header .links .link a:hover {
     text-decoration: none;
     color: white;
     font-family: 'Nunito';
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .main-container .about .projet .about .proj-title .button {

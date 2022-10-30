@@ -38,7 +38,6 @@
     .main-container .about .projet .photo img {
         max-width: 130px;
         border-radius: 15px;
-        margin-top: 33%;
     }
 
     .main-container .about .projet .about .proj-title h1 {
@@ -67,6 +66,10 @@
     .main-container .contact-div .about-me .mobile img,
     .main-container .contact-div .about-me .mail img {
         width: 22px;
+    }
+
+    .main-container .about .projet {
+        height: 220px;
     }
 }
 
@@ -153,7 +156,6 @@
     .main-container .about .projet .photo img {
         max-width: 150px;
         border-radius: 15px;
-        margin-top: 33%;
     }
 
     .main-container .about .projet .about .proj-title h1 {
@@ -256,9 +258,13 @@
     }
 
     .main-container .about .projet .photo img {
-        max-width: 180px;
+        max-height: 250px;
         border-radius: 15px;
-        margin-top: 33%;
+    }
+
+    .main-container .about .projet {
+        height: 300px;
+        margin-top: 20px;
     }
 
     .main-container .about .projet .about .proj-title h1 {
@@ -359,7 +365,6 @@
     .main-container .about .projet .photo img {
         max-width: 220px;
         border-radius: 15px;
-        margin-top: 33%;
     }
 
     .main-container .about .projet .about .proj-title h1 {
@@ -457,9 +462,12 @@
     }
 
     .main-container .about .projet .photo img {
-        max-width: 270px;
+        width: 200px;
         border-radius: 15px;
-        margin-top: 33%;
+    }
+
+    .main-container .about .projet {
+        height: 400px;
     }
 
     .main-container .about .projet .about .proj-title h1 {
