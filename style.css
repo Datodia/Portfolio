@@ -41,6 +41,11 @@ header .header .resume {
     border: 0.642857px dashed #0066FF;
     border-radius: 20px;
     padding: 9px 19px;
+    background-color: #0066FF;
+}
+
+header .header .resume a {
+    color: white;
 }
 
 header .header .resume a,
