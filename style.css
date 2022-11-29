@@ -431,7 +431,7 @@ header .header .resume:hover {
 }
 
 .main-container .about .projet .about .proj-title .button:hover {
-    transform: translateY(-15px);
+    transform: translateY(-8px);
     transition-duration: .5s;
 }
 
