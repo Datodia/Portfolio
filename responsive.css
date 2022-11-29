@@ -332,7 +332,7 @@
     .main-container .contact .show-more {
         width: 200px;
         height: 45px;
-        font-size: 15px;
+        font-size: 18px;
     }
 
     .main-container .about .soc-network a img {
@@ -436,9 +436,11 @@
     .main-container .contact .show-more {
         width: 300px;
         height: 55px;
-        font-size: 20px;
+        font-size: 25px;
         margin-top: 55px;
     }
+
+
 
     .main-container .experience .exp-div .exp-about .about p,
     .main-container .experience .exp-div .date h1 {
