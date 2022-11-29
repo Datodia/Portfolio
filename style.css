@@ -154,10 +154,11 @@ header .links .link a:hover {
     width: 124.49px;
     height: 25px;
     font-size: 9px;
-    color: white;
+    color: black;
     background: #00FFF5;
     border-radius: 15.3061px;
     border: none;
+    font-weight: 600;
 }
 
 .main-container .about .soc-network {
@@ -210,9 +211,8 @@ header .links .link a:hover {
 .main-container .contact .show-more a {
     font-size: 9px;
     text-decoration: none;
-    color: white;
     font-family: 'Nunito';
-    font-weight: 400;
+    color: black;
 }
 
 .main-container .experience {
@@ -419,7 +419,6 @@ header .header .resume:hover {
 .main-container .contact .show-more:hover {
     transform: scale(1.1);
     transition-duration: .5s;
-    color: black;
 }
 
 .main-container .projects .show-more:hover a,
