@@ -182,10 +182,16 @@ header .links .link a:hover {
     border: 0.300375px dashed #0066FF;
     border-radius: 9.01126px;
     margin-top: 3%;
+    /* height: 400px; */
+    justify-content: start;
+    align-items: flex-start;
+    height: 130px;
 }
 
 .main-container .projects .item a {
     display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 .main-container .projects .item img {

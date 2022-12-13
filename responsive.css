@@ -49,6 +49,10 @@
         margin-bottom: 50px;
     }
 
+    .main-container .projects .items .item {
+        height: 200px;
+    }
+
     .main-container .projects .items .item a {
         margin-top: 12%;
         font-size: 14px;
@@ -174,6 +178,10 @@
         font-size: 15px;
     }
 
+    .main-container .projects .items .item {
+        height: 250px;
+    }
+
     .main-container .projects .items .item a {
         height: 8%;
         font-size: 18px;
@@ -283,6 +291,10 @@
         font-size: 15px;
     }
 
+    .main-container .projects .items .item {
+        height: 350px;
+    }
+
     .main-container .projects .items .item a {
         margin-top: 12%;
         height: 8%;
@@ -378,6 +390,10 @@
         margin-bottom: 9%;
     }
 
+    .main-container .projects .items .item {
+        height: 420px;
+    }
+
     .main-container .projects .items .item a {
         font-size: 20px;
     }
@@ -411,6 +427,9 @@
         width: 22%;
     }
 
+    .main-container .projects .items .item {
+        height: 450px;
+    }
 
     header .header .logo h1,
     header .header .resume a,
