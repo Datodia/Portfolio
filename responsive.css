@@ -54,7 +54,7 @@
     }
 
     .main-container .projects .items .item a {
-        margin-top: 12%;
+        padding: 10px 5px;
         font-size: 14px;
     }
 
@@ -183,8 +183,8 @@
     }
 
     .main-container .projects .items .item a {
-        height: 8%;
         font-size: 18px;
+        padding: 10px 5px;
     }
 
     .main-container .about .projet .about .proj-title .button {
@@ -296,8 +296,6 @@
     }
 
     .main-container .projects .items .item a {
-        margin-top: 12%;
-        height: 8%;
         font-size: 18px;
     }
 
@@ -308,6 +306,9 @@
     .main-container .contact-div .soc-network a img {
         width: 25px;
         height: 25px;
+    }
+    .main-container .projects .items{
+        row-gap: 20px;
     }
 }
 
@@ -508,7 +509,6 @@
     }
 
     .main-container .projects .items .item a {
-        height: 10%;
         font-size: 22px;
     }
 

@@ -171,6 +171,7 @@ header .links .link a:hover {
     display: flex;
     flex-wrap: wrap;
     gap: 3%;
+    row-gap: 10px;
     justify-content: center;
     margin-top: 3%;
 }
@@ -181,11 +182,10 @@ header .links .link a:hover {
     padding: 5px 0;
     border: 0.300375px dashed #0066FF;
     border-radius: 9.01126px;
-    margin-top: 3%;
-    /* height: 400px; */
     justify-content: start;
     align-items: flex-start;
     height: 130px;
+    position: relative;
 }
 
 .main-container .projects .item a {
@@ -447,20 +447,21 @@ header .header .resume:hover {
 
 .main-container .projects .items .item a {
     position: absolute;
-    width: 18%;
-    margin-left: 4%;
-    margin-top: 10%;
-    height: 5%;
     opacity: 0;
     background: #0066FF;
     border-radius: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: white;
     text-decoration: none;
     font-family: 'Nunito';
     font-size: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 2px;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .main-container .projects .items .item:hover a {
